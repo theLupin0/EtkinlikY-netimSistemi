@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/resimler/admin.png);
+    background-size: cover;
+}
+
+.panel {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.panel>div {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(109, 47, 47, 0);
+}
+
+.Onay {
+    width: 33%;
+}
+
+.duyuru {
+    width: 33%;
+}
+
+.etkinlik {
+    width: 33%;
+}
+
+p,
+h1,
+h2 {
+    color: azure;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    font-size: 30px;
+}
+
+.duyuru form {
+
+    text-align: center;
+    margin: 20px;
+}
+
+label {
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+}
+
+input {
+    width: 75%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.btn {
+    background-color: #aa4409;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: #af9109;
+    transform: scale(1.05);
+}
+
+.tur-ilgi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 200px;
+    margin: 10px auto;
+    color: white;
+}
+
+
+
+.tur-ilgi label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.ilgi {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 13px;
+    max-width: 200px;
+
+    color: white;
+}
+
+
+
+.ilgi label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
