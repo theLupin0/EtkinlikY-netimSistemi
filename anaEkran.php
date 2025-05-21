@@ -237,26 +237,6 @@ if (isset($_SESSION['user_id'])) {
                                 <?php if (!$profil_durum): ?>
                                     window.location.href = "login.php";
                                 <?php else: ?>
-                                    /*const currentUserID = <?= isset($_SESSION['user_id']) ? $_SESSION['user_id'] : null ?>;
-                                    fetch("sepet.php", {
-                                            method: "POST",
-                                            headers: {
-                                                "Content-Type": "application/json"
-                                            },
-                                            body: JSON.stringify({
-                                                kullanici_id: currentUserID,
-                                                etkinlik_id: etk.id
-                                            })
-                                        })
-                                        .then(response => response.json())
-                                        .then(data => {
-                                            alert(data.message || "Sepete Eklendi");
-                                        })
-                                        .catch(error => {
-                                            alert("Bir hata oluştu.");
-                                            console.error(error);
-                                        });*/
-
                                     const userId = <?php echo $_SESSION['user_id']; ?>;
                                     const etkinlikID = etk.id;
                                     window.location.href = `sepet.php?user_id=${userId}&etkinlik_id=${etkinlikID}`;
