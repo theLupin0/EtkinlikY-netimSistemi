@@ -147,7 +147,7 @@ $conn->close();
                     <br>
                     <label for="tur">Tür</label><br>
                     <div class="tur-ilgi">
-                        <label><input type="radio" name="tur" value="muzik">Müzik</label>
+                        <label><input type="radio" name="tur" value="müzik">Müzik</label>
                         <label><input type="radio" name="tur" value="teknoloji">Teknoloji</label>
                         <label><input type="radio" name="tur" value="sanat">Sanat</label>
                         <label><input type="radio" name="tur" value="spor">Spor</label>
